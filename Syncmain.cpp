@@ -12,7 +12,7 @@ std::mutex mtx;
 auto start = std::chrono::high_resolution_clock::now(); 
 
 
-void runAhmedlogger(){
+void runAhmedlogger(int n){
     mtx.lock();
     const std::string directory = "../logs";
     const std::string filename = "AhmedLog"; 
@@ -21,33 +21,21 @@ void runAhmedlogger(){
     
     g3::initializeLogging(worker.get());
     
-     for(int i = 0;i<50;i++){
+     for(int i = 0;i<n;i++){
            LOG(DEBUG) << "This is debug message from ahmedlogger";
     }
     mtx.unlock();
 }
-void runLogiciellogger(){
-    mtx.lock();
-    const std::string directory = "../logs";
-    const std::string filename = "logicielLog"; 
-    auto worker2 = g3::LogWorker::createLogWorker();
-    auto sinkHandle = worker2->addDefaultLogger(filename,directory);
-    
-    g3::initializeLogging(worker2.get());
-    
-     for(int i = 0;i<50;i++){
-           LOG(DEBUG) << "This is debug message from ahmedlogger";
-    }
-    mtx.unlock();
-}
+
+
 
 
 
 int main(){
     
-    std::thread th1(runAhmedlogger);
+    std::thread th1(runAhmedlogger,50);
 
-    std::thread th2(runLogiciellogger);
+    std::thread th2(runAhmedlogger,50);
 
     
     th1.join();
@@ -55,8 +43,9 @@ int main(){
     
     auto stop =  std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop-start);
-    std::cout <<"Total Execution Time" << duration.count() <<std::endl;
+    std::cout <<"Total Execution Time Synchronus: " << duration.count() <<std::endl;
 
+    
 
     std::cout <<"Both threads completed"<<std::endl;
     return 0;

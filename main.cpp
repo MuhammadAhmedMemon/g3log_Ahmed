@@ -5,7 +5,9 @@
 #include "g3log/logworker.hpp"
 #include <chrono>
 
-void runAhmedlogger(){
+auto start = std::chrono::high_resolution_clock::now(); 
+
+void runAhmedlogger(int n){
 
     const std::string directory = "../logs";
     const std::string filename = "AhmedLog"; 
@@ -14,38 +16,26 @@ void runAhmedlogger(){
     
     g3::initializeLogging(worker.get());
     
-     for(int i = 0;i<50;i++){
+     for(int i = 0;i<n;i++){
            LOG(DEBUG) << "This is debug message from ahmedlogger";
     }
 }
-void runLogiciellogger(){
-    
-    const std::string directory = "../logs";
-    const std::string filename = "logicielLog"; 
-    auto worker2 = g3::LogWorker::createLogWorker();
-    auto sinkHandle = worker2->addDefaultLogger(filename,directory);
-    
-    g3::initializeLogging(worker2.get());
-    
-     for(int i = 0;i<50;i++){
-           LOG(DEBUG) << "This is debug message from ahmedlogger";
-    }
-}
+
 
 
 
 int main(){
     
-    std::thread th1(runAhmedlogger);
+    std::thread th1(runAhmedlogger,50);
 
-    std::thread th2(runLogiciellogger);
+    std::thread th2(runAhmedlogger,50);
 
     th1.join();
     th2.join();
     
     auto stop =  std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop-start);
-    std::cout <<"Total Execution Time" <<duration.count() <<std::endl;
+    std::cout <<"Total Execution Time Asynchronus:" <<duration.count() <<std::endl;
 
     std::cout <<"Both threads completed"<<std::endl;
     return 0;
