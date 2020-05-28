@@ -1,0 +1,55 @@
+		g3log created log at: Fri May 29 00:21:06 2020
+		LOG format: [YYYY/MM/DD hh:mm:ss uuu* LEVEL FILE->FUNCTION:LINE] messagen
+		(uuu*: microseconds fractions of the seconds value)
+
+2020/05/29 00:21:06 075547	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075554	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075556	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075559	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075561	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075563	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075566	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075568	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075570	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075572	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075578	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075581	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075583	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075585	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075588	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075590	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075593	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075597	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075602	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075607	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075609	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075612	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075613	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075615	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075617	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075619	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075621	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075623	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075629	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075634	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075636	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075638	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075639	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075641	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075643	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075645	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075649	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075651	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075654	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075655	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075657	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075658	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075660	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075661	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075662	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075663	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075665	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075667	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075668	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+2020/05/29 00:21:06 075669	DEBUG [main.cpp->runLogiciellogger:29]	This is debug message from ahmedlogger
+g3log g3FileSink shutdown at: 00:21:06 076840
