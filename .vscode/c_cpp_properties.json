@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/g3log/src"
+                "${workspaceFolder}/g3log/src",
+                "${workspaceFolder}/g3log/build/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

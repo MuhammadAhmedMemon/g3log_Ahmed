@@ -15,4 +15,6 @@ include_directories(
 )
 
 add_executable(main main.cpp)
+add_executable(syncmain Syncmain.cpp)
 target_link_libraries(main ${INCLUDE_LIB} ${INCLUDE_SYSLIBS}/libpthread.so)
+target_link_libraries(syncmain ${INCLUDE_LIB} ${INCLUDE_SYSLIBS}/libpthread.so)
